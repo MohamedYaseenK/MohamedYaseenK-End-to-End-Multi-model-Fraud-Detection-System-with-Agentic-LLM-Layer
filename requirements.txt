@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+fastapi
+uvicorn
+streamlit
+langchain
+langchain-anthropic
+python-dotenv
+pydantic
