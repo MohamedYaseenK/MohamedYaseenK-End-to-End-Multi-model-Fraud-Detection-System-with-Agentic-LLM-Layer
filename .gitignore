@@ -1,21 +1,48 @@
-# data
-data/raw/*
-data/*.db
-!data/raw/.gitkeep
-
-# secrets
+# Environment and secrets
 .env
-
-# models
-models/*.pkl
-!models/.gitkeep
-
-# python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+.env.*
+!.env.example
 venv/
 .venv/
+env/
+ENV/
 
-# os
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Generated data and model artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/*.db
+models/*
+!models/.gitkeep
+*.pkl
+*.pickle
+*.joblib
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/settings.json
+.idea/
 .DS_Store
+Thumbs.db

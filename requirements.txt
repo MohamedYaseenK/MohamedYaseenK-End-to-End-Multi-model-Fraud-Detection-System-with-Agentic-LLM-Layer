@@ -2,10 +2,14 @@ pandas
 numpy
 scikit-learn
 xgboost
+matplotlib
+seaborn
+jupyter
 fastapi
 uvicorn
 streamlit
-langchain
-langchain-anthropic
+langchain>=1.0
+langchain-anthropic>=1.0
+langchain-google-genai>=2.0
 python-dotenv
 pydantic
